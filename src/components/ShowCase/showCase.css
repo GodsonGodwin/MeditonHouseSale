@@ -1,0 +1,48 @@
+.showcase{
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.showcase > div{
+    display: flex;
+    justify-content: center;
+}
+
+.showcase > div p{
+    margin: 1rem 2rem ;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.showcase .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    padding: 1rem;
+}
+
+.showcase img{
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 940px){
+    .showcase{
+        margin: 1rem 0;
+    }
+
+    .showcase > div p{
+        margin: 1rem;
+        font-size: 1rem
+    }
+
+    .showcase .contain{
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+
+    }
+    
+}
