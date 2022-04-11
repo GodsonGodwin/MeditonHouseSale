@@ -26,25 +26,32 @@
 
 .span-3{
     grid-column: span 3;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .span-2{
     grid-column: span 2;
+    
 }
 
 .image-grid-row-2{
     grid-row: span 2;
 }
 
-.feature .image-details{
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-}
-.feature .top{
-    /* text-align: center; */
+img:hover{
+    transform: scale(0.9);
 }
 
-.feature .side{
-    float: right;
+@media screen and (max-width:1024px){
+    .featured .container{
+        --num-cols:2;
+        --row-height: 200px;
+        --gap: 0.5rem
+    }
+
+    .span-3{
+        grid-column: span 10s;
+    }
+    
 }

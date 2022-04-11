@@ -17,17 +17,6 @@ const Feature = () => {
             <img src={img3} alt='Featured House'/>
             <img src={img4} alt='Featured House'/>
             <img src={img5} alt='Featured House'/>
-
-            <div className='span-3 image-details'>
-                <div className='top'>
-                    <h2> 453, St. Mary, Mirrow Way Street.</h2>
-                </div>
-
-                <div className='span-2 side'>
-                    <p> Checkout our top rated beautiful apartment </p>
-                    <button className='btn'> View Details</button>
-                </div>
-            </div>
         </div>
 
     </div>
