@@ -16,7 +16,12 @@
 }
 
 .navbar span{
-    color: #5651e5;
+    color: #a1b32c;
+}
+
+.navbar h1{
+    margin-left: -200;
+    
 }
 
 .navbar .nav-menu{
@@ -33,6 +38,11 @@
 
 .icon{
     font-size: 1.5rem;
+}
+
+.navbar img{
+    height: 80px;
+    width: 130px;
 }
 
 @media screen and (max-width:940px) {

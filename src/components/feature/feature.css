@@ -39,7 +39,7 @@
     grid-row: span 2;
 }
 
-img:hover{
+.feature img:hover{
     transform: scale(0.9);
 }
 
