@@ -3,6 +3,7 @@ import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import {FaRegTimesCircle} from 'react-icons/fa'
 import {BsFillHouseFill} from 'react-icons/bs'
 import './Navbar.css'
+import mediton from '../../assets/mediton.png'
 
 const Navbar = () => {
 
@@ -12,7 +13,8 @@ const expand = () => setClick(!click);
   return (
     <div className='navbar'>
         <div className='container'>
-            <h1><span><BsFillHouseFill/>Real</span>Estate</h1>
+        <img src={mediton} alt='Brand Logo'/>
+            <h1>Mediton<span>Estate </span></h1>
             <button className='btn'> Sign In</button>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li><a href='#'>Home</a></li>

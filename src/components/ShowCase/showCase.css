@@ -9,6 +9,9 @@
     justify-content: center;
 }
 
+.showcase h1{
+    color:#adc033;
+}
 .showcase > div p{
     margin: 1rem 2rem ;
 }
